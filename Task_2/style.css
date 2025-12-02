@@ -1,0 +1,74 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+ align-items: center;
+margin-top: 175px;
+ margin-left: 25%;
+}
+
+section{
+    display: flex;
+    gap: 30px;
+}
+.section1{
+    padding: 10px;
+    width: 150px;
+}
+.section2{
+    padding: 10px;
+    width: 150px;
+}
+.section3{
+    padding: 10px;
+    width: 150px;
+}
+.showBtn1{
+    margin-top: 10px;
+    height: 20px;
+    padding: 0 10px;
+    margin-top: 30px;
+}
+.showBtn2{
+    height: 20px;
+    padding: 0 10px;
+    margin-top: 30px;
+}
+.showBtn3{
+    margin-top: 30px;
+    height: 20px;
+    padding: 0 10px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+.hobbies{
+    display: flex;
+    flex-direction: column;
+}
+
+.ShowHideAllBtn{
+    margin-top: 30px;
+    margin-left: 20%;
+}
+
+.showAll{
+   padding: 5px;
+}
+
+.hideAll{
+   padding: 5px;
+}
+
+
+
+.hidden {
+  display: none;
+}
+
+.sectionVisible{
+    margin-top: 30px;
+}
