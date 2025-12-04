@@ -6,6 +6,7 @@ const markAll = document.querySelector(".markAll")
 const unmarkAll = document.querySelector(".unmarkAll")
 
 
+// toggle single task
 tasks.forEach(task=>{
     task.addEventListener("click",()=>{
         task.classList.toggle("completed");
@@ -13,11 +14,13 @@ tasks.forEach(task=>{
     })
 })
 
+// add/remove completed on all tasks
 function updateAllTasks(action) {
     tasks.forEach(task => task.classList[action]("completed"));
     updateProgress();
 }
 
+// update progress bar and text
 function updateProgress() {
     let totalTasks = tasks.length;
     let completed = document.querySelectorAll(".task.completed").length;
@@ -30,5 +33,6 @@ function updateProgress() {
   progressText.textContent = percent +"% completed";
 }
 
+// mark all / unmark all buttons
 markAll.addEventListener("click",()=>updateAllTasks("add"))
 unmarkAll.addEventListener("click",()=>updateAllTasks("remove"))
