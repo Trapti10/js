@@ -5,7 +5,6 @@ const noOftaskCompleted = document.querySelector(".noOftaskCompleted")
 const markAll = document.querySelector(".markAll")
 const unmarkAll = document.querySelector(".unmarkAll")
 
-
 // toggle single task
 tasks.forEach(task=>{
     task.addEventListener("click",()=>{
