@@ -1,0 +1,57 @@
+body{
+    top: 10%;
+    place-items: center;
+}
+
+.Image1{
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    position: relative;
+}
+
+.counting{
+    margin-left: 200px;
+}
+
+.dots{
+    display: flex;
+    gap: 5px;
+    margin-top: -25px;
+    margin-bottom: 20px;
+}
+
+.dot{
+   height:7px;
+   width:7px;
+   border: 1px solid;
+   border-color: black;
+   border-radius: 50%;
+}
+
+.fill{
+    background: #252424;
+    transform: scale(1.4);
+}
+
+.jumpBtns{
+    display: flex;
+    gap: 10px;
+}
+
+.changeBtns{
+    display: flex;
+    gap: 250px;
+    position: absolute;
+    top: 100px;
+}
+.preBtn{
+    height: 20px;
+   transform: rotate(180deg);
+   filter:invert();
+}
+.nextBtn{
+    filter:invert();
+    height: 20px;
+
+}
