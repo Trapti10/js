@@ -1,0 +1,10 @@
+body{
+    place-items: center;
+    margin-top: 10%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
