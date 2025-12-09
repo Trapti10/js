@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+
+        <select id="selectMessage">
+             <option value="" disabled selected hidden>Select message type</option>
+            <option value="error">Error</option>
+            <option value="success">Success</option>
+        <option value="warning">Warning</option>
+        <option value="info">Information</option>
+    </select>
+    <button class="show">Show</button>
+</section>
+    <div class="messageBox">
+    </div>
+    <div class="counter">
+           Messages shown: 0
+    </div>
+    <button class="clearBtn">Clear All</button>
+    <script src="script.js"></script>
+</body>
+</html>
