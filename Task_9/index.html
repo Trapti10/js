@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font Size Controller</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="container">
+        <h1>Font Size Controller</h1>
+
+        <!-- Sample Text -->
+        <p id="text" class="sampleText">This is a sample text.</p>
+
+        <!-- Current Size Display -->
+        <p id="sizeDisplay" class="size-display">Current size: 16px</p>
+
+        <!-- Buttons Row -->
+        <div class="controls">
+            <button id="smallerBtn">Smaller</button>
+            <button id="largerBtn">Larger</button>
+        </div>
+
+        <!-- Range Slider -->
+        <input type="range" id="fontSlider" min="10" max="40" value="16" />
+
+        <!-- Preset Buttons -->
+        <div class="presets">
+            <button class="presetBtn" data-size="12">Small (12px)</button>
+            <button class="presetBtn" data-size="16">Medium (16px)</button>
+            <button class="presetBtn" data-size="24">Large (24px)</button>
+        </div>
+
+        <!-- Reset Button -->
+        <button id="resetBtn" class="reset-btn">Reset to Default</button>
+
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
