@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    place-items: center;
+    margin-top: 10%;
+}
+h1{
+    margin-bottom: 40px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background: #fee1e1;
+    height: fit-content;
+    padding: 20px 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(1, 7, 56);
+}
+
+.colorBtns{
+    display: flex;
+    gap: 15px;
+    justify-content: start;
+}
+.colorBtns button{
+    width: fit-content;
+    text-align: center;
+    padding: 5px 4px;
+    background: #c5e3f3;
+    border: none;
+    border-radius: 5px;
+}
+
+.active{
+    border: 1px solid gray;
+    transform: scale(1.2);
+    transition:all 0.3s ease-in;
+}
+.fav{
+    display: flex;
+    gap: 7px;
+}
+.applyFav{
+    display: none;
+}
+
+.chooseRandom, 
+.Save, 
+.applyFav{
+    width: fit-content;
+    padding: 3px 4px;
+    background: #f5b1b1;
+    border: none;
+    border-radius: 5px;
+}
